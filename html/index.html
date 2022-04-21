@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog do Ofra</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho-principal">
+            <h1 class="cabecalho-principal-titulo">OFRA</h1>
+        </div>
+
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-item" href="jogos.html">JOGOS</a>
+            <a class="cabecalho-menu-item" href="#">PROGRAMAS</a>
+            <a class="cabecalho-menu-item" href="#">MATEMÁTICA</a>
+            <a class="cabecalho-menu-item" href="#">PROJETOS</a>
+        </nav>
+    </header>
+
+    <main class="conteudo">
+
+        <form class="conteudo-formulario" action="formulario.php" method="post">
+            <p class="conteudo-formulario-titulo">
+                <strong>Bem Vindo! Apresente-se:</strong>
+            </p>
+            
+            <p class="conteudo-formulario-item">
+                <label class="conteudo-formulario-item-label" for="nome">NOME:</label>
+                <input class="conteudo-formulario-item-input" type="text" name="nome" id="nome" maxlength="40"                                                       >
+            </p>
+                
+            <p class="conteudo-formulario-item">
+                <label class="conteudo-formulario-item-label" for="idade">IDADE:</label>
+                <input class="conteudo-formulario-item-input" type="text" name="idade" id="idade" maxlength="3">
+            </p>
+                
+            <p class="conteudo-formulario-item">
+                <label class="conteudo-formulario-item-label" for="profissao">PROFISSÃO:</label>
+                <input class="conteudo-formulario-item-input" type="text" name="pprofissao" id="profissao" maxlength="40">
+            </p>
+
+            <p class="conteudo-formulario-item">
+                <label class="conteudo-formulario-item-label" for="comentario">COMENTÁRIO:</label>
+                <textarea class="conteudo-formulario-item-textarea" name="comentario" id="comentario" cols="30" rows="10"></textarea>
+            </p>
+
+            <p class="conteudo-formulario-item">
+                <input class="conteudo-formulario-botao" type="button" name="botao" value="Enviar">
+            </p>
+            
+        </form>
+
+        <section class="conteudo-principal">
+            <div class="conteudo-principal-texto">
+                <h2 class="conteudo-principal-texto-titulo">Blog do Ofra</h2>
+                <h3 class="conteudo-principal-texto-subtitulo">Ofra é um nome fictício de uma pessoa fictícia e criada por uma pessoa real. Boa leitura!</h3>
+                <p class="conteudo-principal-texto-apresentacao">
+                    Olá amigos! Sou o ofra. Criei este site para que
+                    possamos nos interagir de uma forma mais eficiente.
+                    Queria agradecer a todos pela presença e pela colaboração.
+                    Espero que tenha uma ótima leitura, um ótimo dia e muita
+                    sorte na sua vida. Aproveite o site!
+                </p>
+                <p class="conteudo-principal-texto-apresentacao">
+                    Decidi separar o conteúdo do site por categorias, a saber,
+                    jogos, programas, matemática e projetos. Em cada categoria
+                    é possível encontrar minhas opiniões e os conhecimentos que
+                    gostaria de compartilhar com vocês. 
+                </p>
+                <p class="conteudo-principal-texto-apresentacao">
+                    No lado esquerdo da página, você pode encontrar um pequeno
+                    formulário que serve para você se comunicar comigo. Os campos
+                    idade e profissao não são obrigatórios para enviar o formulário,
+                    mas estas informações são importantes para que eu saiba o tipo
+                    de público que visita meu blog e, assim, eu possa adaptá-lo 
+                    para uma melhor experiência de todos. 
+                </p>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <section class="rodape-texto">
+            <h4 class="rodape-texto-credito">DESENVOLVIDO POR LUIZ HENRIQUE (OFRA)</h4>
+        </section>
+    </footer>
+    
+</body>
+</html>

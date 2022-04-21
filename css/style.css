@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* ---------------TAGS----------------- */
+body {
+    font-size: 100%;
+}
+
+
+/* ---------------CLASS---------------- */
+
+/* Cabeçalho */
+.cabecalho {
+    display: flex;
+    flex-direction: column;  
+}
+
+.cabecalho-principal {
+    text-align: center;  
+    background-color: green;
+    color: ivory;
+}
+
+.cabecalho-menu {
+    padding-left: 30px;
+    display: flex;
+    background-color: rgb(86, 234, 245);
+    gap: 30px;
+    height: 25PX;
+    align-items: center;
+}
+
+.cabecalho-menu-item {
+    color: black;
+}
+
+/* Conteudo */
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    min-height: 550px;
+    padding-top: 20px;
+}
+
+/* Formulário */
+.conteudo-formulario {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 10px;
+    padding: 0px 20px;
+}
+
+.conteudo-formulario-titulo {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.conteudo-formulario-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteudo-formulario-item-label {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+
+}
+
+.conteudo-formulario-item-input {
+    height: 30px;
+    width: 258px;
+}
+
+.conteudo-formulario-botao {
+    width: 80px;
+    height: 30px;
+    background-color: green;
+    margin: 20px auto;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* Texto */
+.conteudo-principal-texto {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 70px;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.conteudo-principal-texto-titulo {
+    text-align: center;
+
+}
+
+.conteudo-principal-texto-subtitulo {
+    text-align: center;
+    padding: 0px 100px;
+}
+
+.conteudo-principal-texto-apresentacao {
+    text-align: justify;
+    padding: 0 60px;
+}
+
+.conteudo-principal-texto-categoria {
+    border-top-style: solid;
+    border-top-width: 2px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+/* Rodape */
+.rodape {
+    display: flex;
+    background-color: turquoise;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape-texto-credito {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

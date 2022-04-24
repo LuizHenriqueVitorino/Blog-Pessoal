@@ -15,8 +15,9 @@ function back()
 function calc()
 {
     var resultado = document.getElementById('resultado').innerHTML;
-    if (resultado) {
-        document.getElementById('resultado').innerHTML = eval(resultado.replace('x', '*'))
+    if (resultado) 
+    {
+        document.getElementById('resultado').innerHTML = eval(resultado.replace('x', '*')); 
     }
     else
     {
